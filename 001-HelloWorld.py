@@ -7,6 +7,16 @@ print("Hello World")
 someText = "Hello World"
 print("{}".format(someText))
 
+# Or I can print two things
+
+aString = "How Many Apples: "
+aInteger = "5"
+
+print("{}{}".format(aString,aInteger))
+# Think about why this might work differently. Can you figure out what I did there?
+print("{1}{0}".format(aInteger,aString))
+
+
 # Newer versions of Python let you format that data quicker and with less complexity
 print(f"{someText}")
 
