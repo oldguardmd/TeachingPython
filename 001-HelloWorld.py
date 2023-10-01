@@ -7,7 +7,7 @@ print("Hello World")
 someText = "Hello World"
 print("{}".format(someText))
 
-# Never versions of Python let you format that data quicker and with less complexity
+# Newer versions of Python let you format that data quicker and with less complexity
 print(f"{someText}")
 
 # And we can do math and print the results
