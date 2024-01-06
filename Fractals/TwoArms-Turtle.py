@@ -16,13 +16,13 @@ screen.bgcolor("black")
 arm1 = turtle.Turtle()
 arm1.speed(0)  # Set the turtle's speed to the maximum
 arm1.color("white")
-arm1.pensize(5)
+arm1.pensize(1)
 
 # Create the second turtle for the second arm
 arm2 = turtle.Turtle()
 arm2.speed(0)
 arm2.color("white")
-arm2.pensize(5)
+arm2.pensize(1)
 
 # Main loop
 while True:
